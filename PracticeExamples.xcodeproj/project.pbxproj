@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4956E62085256100403338 /* MatrixTestableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4956E52085256100403338 /* MatrixTestableProtocol.swift */; };
 		5C83B6D1207E638300E8BC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83B6D0207E638300E8BC31 /* AppDelegate.swift */; };
 		5C83B6D3207E638300E8BC31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83B6D2207E638300E8BC31 /* ViewController.swift */; };
 		5C83B6D6207E638300E8BC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C83B6D4207E638300E8BC31 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C4956E52085256100403338 /* MatrixTestableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestableProtocol.swift; sourceTree = "<group>"; };
 		5C83B6CD207E638200E8BC31 /* PracticeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C83B6D0207E638300E8BC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C83B6D2207E638300E8BC31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C4956E4208524F500403338 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				5C4956E52085256100403338 /* MatrixTestableProtocol.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
 		5C83B6C4207E638200E8BC31 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		5C83B6CF207E638200E8BC31 /* PracticeExamples */ = {
 			isa = PBXGroup;
 			children = (
+				5C4956E4208524F500403338 /* Matrix */,
 				5C83B6D0207E638300E8BC31 /* AppDelegate.swift */,
 				5C83B6D2207E638300E8BC31 /* ViewController.swift */,
 				5C83B6D4207E638300E8BC31 /* Main.storyboard */,
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4956E62085256100403338 /* MatrixTestableProtocol.swift in Sources */,
 				5C83B6D3207E638300E8BC31 /* ViewController.swift in Sources */,
 				5C83B6D1207E638300E8BC31 /* AppDelegate.swift in Sources */,
 			);
