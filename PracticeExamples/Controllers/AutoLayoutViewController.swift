@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AutoLayoutViewController: UIViewController {
     
     private var centerViewLeading: CGFloat!
     
@@ -68,22 +68,6 @@ class ViewController: UIViewController {
         menuView.layer.shadowOpacity = 0.3
         menuView.layer.shadowRadius = 2
         menuView.layer.shadowOffset = CGSize(width: 0, height: -2)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
     }
 
 }
